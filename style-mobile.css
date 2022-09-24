@@ -1,0 +1,34 @@
+@media only screen and (max-width:576px) { 
+
+  .container {
+    height: 190vh;
+  }
+
+  .card {
+    height: 1328px;
+    width: 328px;
+    flex-direction: column;
+  }
+
+  .box {
+    height: 443px;
+    width: 100%;
+  }
+
+  .left {
+    border-radius: 8px 8px 0px 0px;
+  }
+
+  .right {
+    border-radius: 0px 0px 8px 8px;
+  }
+
+  .body-container {
+    width: 230px;
+    height: auto;
+  }
+
+  .btn {
+    margin-top: 10px;
+  }
+}
