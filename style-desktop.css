@@ -9,8 +9,8 @@
   --body-font-size: 15px
 }
 
-.body {
-  background-color: var(--transparent-white);
+body {
+  background-color: var(--very-light-gray);
 }
 
 .container {
