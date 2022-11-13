@@ -15,21 +15,21 @@
   }
 
   .box {
-    height: 442px;
+    height: 29.4667rem;
     width: 100%;
-    padding: 48px;
+    padding: 3.2rem;
   }
 
   .left {
-    border-radius: 8px 8px 0px 0px;
+    border-radius: 0.5333rem 0.5333rem 0rem 0rem;
   }
 
   .right {
-    border-radius: 0px 0px 8px 8px;
+    border-radius: 0rem 0rem 0.5333rem 0.5333rem;
   }
 
   
   .btn {
-    margin-top: 24px;
+    margin-top: 1.6rem;
   }
 }
