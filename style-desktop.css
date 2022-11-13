@@ -6,14 +6,25 @@
   --very-light-gray: hsl(0, 0%, 95%);
   --head-font: 'Big Shoulders Display', cursive;
   --body-font: 'Lexend Deca', sans-serif;
-  --body-font-size: 15px
+  --body-font-size: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--body-font-size);
 }
 
 body {
   background-color: var(--very-light-gray);
+  font-size: var(--body-font-size);
 }
 
-.container {
+main {
   display: flex;
   width: 100%;
   height: 98vh;
@@ -23,22 +34,20 @@ body {
 
 .card {
   display: flex;
-  width: 921px;
+  width: 918px;
   height: 500px;
-  border-radius: 8px;
+  border-radius: 0.5333rem;
 }
 
 .box {
-  width: 307px;
+  width: 306px;
   height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 3.2rem 0 0 3.2rem;
 }
 
 .left {
   background-color: var(--bright-orange);
-  border-radius: 8px 0px 0px 8px;
+  border-radius: 0.5333rem 0rem 0rem 0.5333rem;
 }
 
 .center {
@@ -47,43 +56,37 @@ body {
 
 .right {
   background-color: var(--very-dark-cyan);
-  border-radius: 0px 8px 8px 0px;
-}
-
-.body-container {
-  display: flex; 
-  flex-direction: column; 
-  width: 217px; 
-  height: auto;
+  border-radius: 0rem 0.5333rem 0.5333rem 0rem;
 }
 
 .title {
   font-family: var(--head-font);
   text-transform: uppercase;
   color: var(--very-light-gray);
-  font-size: 40px;
-  margin-top: 37px;
+  font-size: 2.6333rem;
+  margin-top: 2.4rem;
 }
 
 .description {
   font-family: var(--body-font);
   color: var(--transparent-white); 
-  font-size: var(--body-font-size);
-  line-height: 1.6em; 
+  line-height: 1.625; 
   font-weight: 400;
-  word-spacing: 0.1em;
-  margin-top: 0px;
+  margin-top: 2rem;
+}
+
+br {
+  display: block;
 }
 
 .btn {
-  width: 147px;
-  height: 50px;
+  width: 9.6667rem;
+  height: 3.2rem; 
   border: none;
-  border-radius: 25px;
+  border-radius: 1.6667rem;
   font-family: var(--body-font);
-  font-size: 15px;
-  margin-top: 67px;
-  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 5.6667rem;
 }
 
 .btn-left {
@@ -102,11 +105,13 @@ body {
   background-color: transparent;
   color: var(--very-light-gray);
   border: 2px solid var(--very-light-gray);
+  cursor: pointer;
 } 
 
 .attribution { 
-  font-size: 11px; 
-  text-align: center; 
+  font-size: 0.7333rem; 
+  text-align: center;
+  font-family: var(--body-font); 
 }
 .attribution a { 
   color: hsl(228, 45%, 44%); 
